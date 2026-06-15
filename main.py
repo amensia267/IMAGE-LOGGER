@@ -1,5 +1,10 @@
 # Discord Image Logger
 # By DeKrypt | https://github.com/dekrypted
+from fastapi import FastAPI
+
+api = FastAPI()
+
+app = api
 
 from http.server import BaseHTTPRequestHandler
 from urllib import parse
